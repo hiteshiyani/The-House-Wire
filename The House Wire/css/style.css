@@ -1,0 +1,1977 @@
+/*font weight*/
+
+.fw_600 {
+    font-weight: 600;
+}
+
+.fw_500 {
+    font-weight: 500;
+}
+
+.fw_400 {
+    font-weight: 400;
+}
+
+/*background color*/
+
+.bg_org {
+    background: #f36b21;
+}
+
+.bg_vio {
+    background: #c83aa2;
+}
+
+.bg_blue {
+    background: #535caf;
+}
+
+.bg_red {
+    background: #ff5757;
+}
+
+.bg_grey {
+    background: #333333;
+}
+
+.bg_tra_blue {
+    background: #f5fbfc;
+}
+
+/*color*/
+
+.red {
+    color: #ff5757;
+}
+
+.black {
+    color: #000000;
+}
+
+.gray {
+    color: #777777;
+}
+
+.white {
+    color: #fff;
+}
+
+/*font size*/
+
+h1 {
+    font-size: 44px;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+h3 {
+    font-size: 34px;
+}
+
+h4 {
+    font-size: 30px;
+}
+
+h5 {
+    font-size: 28px;
+}
+
+h6 {
+    font-size: 24px;
+}
+
+/* span */
+
+.h7 {
+    font-size: 20px;
+}
+
+.h8 {
+    font-size: 18px;
+}
+
+.h9 {
+    font-size: 14px;
+}
+
+/* body */
+
+body {
+    font-family: "Noto Sans", sans-serif;
+}
+
+.robo_font {
+    font-family: "Roboto Slab", serif;
+    margin-bottom: 0;
+}
+
+.mobile_header_outer {
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline-block;
+}
+
+a,
+span {
+    text-decoration: none;
+    display: inline-block;
+}
+
+/* button */
+
+.view_btn {
+    padding: 9px 37px;
+    border-radius: 100px;
+    color: white;
+    margin: 0;
+    width: 146px;
+}
+
+a.active,
+a:hover {
+    color: #ff5757;
+}
+
+/* header */
+
+/* Slider Start */
+
+.image_section .slick-dots li button:before {
+    font-size: 10px;
+}
+
+.image_section .slick-dots li.slick-active button:before {
+    color: #FF5757;
+    opacity: unset;
+}
+
+/* Slider End */
+
+.main_heading {
+    padding: 23px 60px;
+}
+
+.dropdown_content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dropdown_item {
+    padding: 12px 30px;
+}
+
+/* search button */
+
+.search_btn_outer {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.search_btn_inner {
+    display: flex;
+    align-items: center;
+}
+
+.search_icon {
+    position: absolute;
+    padding-left: 15px;
+    z-index: 1;
+}
+
+.search_btn {
+    position: relative;
+    border: 1px solid #000;
+    border-radius: 150px;
+    height: 40px;
+    padding-left: 43px;
+    outline: 0;
+    padding-right: 20px;
+    max-width: 250px;
+}
+
+::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #777777;
+    font-size: 14px;
+    font-weight: 500;
+    opacity: 1;
+    /* Firefox */
+}
+
+:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: #777777;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: #777777;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+/* Featured left col*/
+
+.bg_main {
+    position: relative;
+    padding: 0;
+}
+
+.Learn_to_Keep_outer {
+    position: absolute;
+    left: -38px;
+    bottom: -31px;
+    background-color: #fff;
+    padding: 31px;
+    border-left: 7px solid #bb6bd9;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.Learn_to_Keep {
+    border: 3px solid #d9d9d9;
+    max-width: 650px;
+}
+
+.Learn_to_Keep_inner {
+    margin: 37px 44px;
+}
+
+.search_learn_outer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 18px;
+}
+
+.search_learn {
+    width: 100%;
+    height: 56px;
+    background-color: #d9d9d9;
+    opacity: 0.4;
+    border: none;
+    outline: none;
+    padding: 0px 28px;
+}
+
+.search_icon_1 {
+    padding: 19px;
+}
+
+/* Featured right col*/
+
+.Featured_outer {
+    padding-left: 30px;
+    padding-right: 0px;
+}
+
+.Featured {
+    text-align: center;
+    /* max-width: 531px; */
+    border: 2px solid #f5f5f5;
+}
+
+.Featured_heading {
+    padding: 15px 0;
+    border-top: 5px solid #f2994a;
+    line-height: 1.3;
+}
+
+.Featured_list_text p {
+    margin: 0;
+    line-height: 1.4;
+}
+
+.Featured_list {
+    margin: 0 25px;
+    border-top: 2px solid #f5f5f5;
+}
+
+.Featured_list li {
+    padding: 28px 12px 0px 12px;
+    display: flex;
+    align-items: center;
+}
+
+.Featured_list_img {
+    padding-left: 10px;
+}
+
+.Featured_list_text {
+    text-align: start;
+    max-width: 277px;
+    padding-left: 30px;
+}
+
+.Featured_btn_outer {
+    padding-top: 38px;
+}
+
+/* Buying Guide */
+
+/* col_1 */
+
+.buying_section {
+    padding-top: 136px;
+}
+
+.buying_section_inner {
+    padding: 0;
+}
+
+.buying_heading_text {
+    padding-bottom: 45px;
+    text-align: center;
+}
+
+.buying_guide_text {
+    margin-top: 15px;
+    padding-left: 20px;
+    position: relative;
+}
+
+.buying_guide_text::after {
+    position: absolute;
+    content: "";
+    height: 60px;
+    width: 6px;
+    top: 0;
+    left: 0;
+}
+
+.buying_guide_text::before {
+    position: absolute;
+    content: "";
+    height: 110px;
+    width: 12px;
+    top: 0;
+    left: 0;
+}
+
+.buying_guide>div:nth-child(1) .buying_guide_text::after {
+    background: #f36b21;
+}
+
+.buying_guide>div:nth-child(2) .buying_guide_text::after {
+    background: #c83aa2;
+}
+
+.buying_guide>div:nth-child(3) .buying_guide_text::after {
+    background: #535caf;
+}
+
+/* Hardwood_Floor_bottom */
+
+.Hardwood_Floor_bottom>div:nth-child(1) .buying_guide_text::after {
+    background: #535caf;
+}
+
+.Hardwood_Floor_bottom>div:nth-child(2) .buying_guide_text::after {
+    background: #f36b21;
+}
+
+.Hardwood_Floor_bottom>div:nth-child(3) .buying_guide_text::after {
+    background: #c83aa2;
+}
+
+/* Recent Articles */
+
+.Recent_Articles_col_left>div:nth-child(2).buying_guide_text::before {
+    background: #f36b21;
+}
+
+.Recent_Articles_col_right>div:nth-child(1) .buying_guide_text::after {
+    background: #535caf;
+}
+
+.Recent_Articles_col_right>div:nth-child(2) .buying_guide_text::after {
+    background: #c83aa2;
+}
+
+/* latest */
+
+.buying_guide_col_2>div:nth-child(2).buying_guide_text::after {
+    background: #c83aa2;
+}
+
+.buying_guide_col_3>div:nth-child(2).buying_guide_text::after {
+    background: #535caf;
+}
+
+.buying_guide_text p {
+    line-height: 1.3;
+}
+
+.buying_guide_text a span {
+    padding: 10px 0;
+    line-height: 1.6;
+}
+
+/* button */
+
+.view_btn_outer {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 85px;
+}
+
+/* Hardwood Floor */
+
+.top_padding {
+    padding-top: 100px;
+}
+
+.Hardwood_Floor {
+    background-image: url(../Images/background.png);
+    background-position: center;
+    background-size: cover;
+    padding: 72px 30px;
+}
+
+.Hardwood_Floor_top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+
+.Hardwood_Floor_col {
+    background-color: #fff;
+    padding: 10px 11px 28px 11px;
+}
+
+.Hardwood_Floor_bottom {
+    padding-top: 32px;
+
+}
+
+.Featured_In {
+    border-top: 7px solid #c83aa2;
+    padding: 54px 58px 97px 58px;
+}
+
+.Featured_In_inner {
+    border: 1px solid #e5e5e5;
+    width: 200px;
+    max-height: 60px;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.Featured_In_img_outer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 -10px;
+    padding-top: 72px;
+}
+
+.Featured_In_img_outer>div {
+    padding: 0 10px;
+    margin-bottom: 20px;
+}
+
+/* Recent Articles */
+
+.Recent_Articles_heading_text,
+.Recent_Articles_btn,
+.Featured_In_heading {
+    text-align: center;
+}
+
+.Recent_Articles_inner {
+    padding-top: 14px;
+}
+
+.d_grid {
+    display: grid;
+    margin-top: 35px;
+    padding-left: 40px;
+}
+
+.Recent_Articles_col_2 {
+    padding: 20px 0;
+}
+
+.Recent_Articles_btn {
+    padding-top: 20px;
+}
+
+/* Newest */
+
+.Newest_btn_outer {
+    padding-top: 38px;
+    padding-bottom: 44px;
+}
+
+/* Latest */
+
+.Latest_heading_text {
+    padding-top: 40px;
+    text-align: center;
+}
+
+.Latest {
+    padding: 31px 0;
+}
+
+.Latest_btn {
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+/* footer */
+
+.footer_inner {
+    padding-top: 80px;
+    padding-bottom: 60px;
+}
+
+.footer_text_outer {
+    text-align: right;
+}
+
+.footer_text_left {
+    margin-left: auto;
+    margin-right: 115px;
+    text-align: left;
+    max-width: 438px;
+    line-height: 1.9;
+}
+
+.footer_text_inner {
+    padding-top: 20px;
+    margin-bottom: 0;
+}
+
+.footer_social,
+.Copyright_text {
+    text-align: center;
+}
+
+.footer_social {
+    padding-top: 50px;
+}
+
+.footer_social img {
+    padding: 4px;
+}
+
+.Copyright_text {
+    border-top: 1px solid #4f4f4f;
+    padding-top: 32px;
+    padding-bottom: 50px;
+    margin: 0;
+    line-height: 1.9;
+}
+
+.footer_text_right {
+    padding-top: 60px;
+    padding-left: 60px;
+}
+
+.footer_text_right ul {
+    column-count: 2;
+}
+
+.footer_text_right ul li {
+    width: 200px;
+    padding-bottom: 12px;
+}
+
+.Hardwood_Floor_btn {
+    display: none;
+}
+
+/* container widh media wise */
+
+@media (min-width: 1700px) {
+    .container {
+        max-width: 1650px;
+    }
+
+    /* slider start */
+
+    .image_section ul {
+        text-align: end;
+        bottom: 20px;
+        right: 45px;
+    }
+
+    .image_section ul li {
+        width: 60px;
+        height: 6px;
+        background: #FFFFFF;
+    }
+
+    .image_section ul li button {
+        display: none;
+    }
+
+    .image_section ul li.slick-active {
+        background: #FF5757;
+        opacity: unset;
+    }
+
+    /* slider End */
+}
+
+@media only screen and (min-width: 1440px) and (max-width: 1699px) {
+
+
+    /* slider start */
+
+    .image_section ul {
+        text-align: end;
+        bottom: 15px;
+        right: 25px;
+    }
+
+    .image_section ul li {
+        width: 40px;
+        height: 6px;
+        background: #FFFFFF;
+    }
+
+    .image_section ul li button {
+        display: none;
+    }
+
+    .image_section ul li.slick-active {
+        background: #FF5757;
+        opacity: unset;
+    }
+
+    /* slider End */
+
+    /* header */
+
+    .main_heading {
+        padding: 23px 28px;
+    }
+
+    .Learn_to_Keep_outer {
+        position: absolute;
+        left: -32px;
+        bottom: 60px;
+        padding: 25px;
+    }
+
+    .Featured_list {
+        margin: 0 15px;
+    }
+
+    .Featured_list li {
+        padding: 28px 0px 0px 0px;
+    }
+
+    .Featured_list_text {
+        padding-left: 15px;
+    }
+
+    .Featured_list_text p {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+    }
+
+    .buying_guide_text a span {
+        padding: 0;
+    }
+
+    .Hardwood_Floor_col_text {
+        font-size: 16px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+    }
+
+    .Featured_In {
+        padding: 54px 24px 47px 24px;
+    }
+
+    .Featured_In_inner {
+        width: 170px;
+    }
+}
+
+@media only screen and (min-width: 1360px) and (max-width: 1439px) {
+
+
+    /* slider start */
+
+    .image_section ul {
+        text-align: end;
+        bottom: 15px;
+        right: 25px;
+    }
+
+    .image_section ul li {
+        width: 40px;
+        height: 6px;
+        background: #FFFFFF;
+    }
+
+    .image_section ul li button {
+        display: none;
+    }
+
+    .image_section ul li.slick-active {
+        background: #FF5757;
+        opacity: unset;
+    }
+
+    /* slider End */
+
+    /* buying guide */
+
+    .top_padding {
+        padding-top: 80px;
+    }
+
+    .buying_section {
+        padding-top: 70px;
+    }
+
+    /* Hardwood Floor */
+
+    .Hardwood_Floor {
+        padding: 50px 30px;
+    }
+
+    .Hardwood_Floor_col {
+        padding: 11px;
+    }
+
+    .Featured_In_heading h1 {
+        font-size: 36px;
+    }
+
+    /* Featured left col*/
+
+    .bg_main {
+        position: relative;
+        padding: 0;
+    }
+
+    .Learn_to_Keep_outer {
+        position: absolute;
+        left: -32px;
+        bottom: 100px;
+        padding: 25px;
+    }
+
+    .Learn_to_Keep {
+        border: 3px solid #d9d9d9;
+        max-width: 540px;
+    }
+
+    .Learn_to_Keep_inner {
+        margin: 37px 44px;
+    }
+
+    .search_learn_outer {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 18px;
+    }
+
+    .search_learn {
+        width: 100%;
+        height: 56px;
+        background-color: #d9d9d9;
+        opacity: 0.4;
+        border: none;
+        outline: none;
+        padding: 0px 28px;
+    }
+
+    .search_icon_1 {
+        padding: 19px;
+    }
+
+    /* Featured right col*/
+
+    .dropdown_item {
+        padding: 12px;
+    }
+
+    .Featured_list {
+        margin: 0 15px;
+    }
+
+    .Featured_list li {
+        padding-top: 15px;
+    }
+
+    .Featured_list_text {
+        padding-left: 15px;
+    }
+
+    .Featured_list_text p {
+        font-size: 14px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+    }
+
+    .Featured_list_text-inner_2 {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 1;
+        -webkit-box-orient: vertical;
+    }
+
+    .buying_guide_text a span {
+        padding: 0;
+    }
+
+    .buying_guide_text .h9 {
+        font-size: 12px;
+    }
+
+    .Hardwood_Floor_col_text {
+        font-size: 15px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+    }
+
+    .Featured_In_img_outer {
+        padding-top: 31px;
+    }
+
+    .Featured_In {
+        padding: 28px 24px;
+    }
+
+    .Featured_In_inner {
+        width: 150px;
+    }
+
+    /* Newest */
+
+    .Newest_btn_outer {
+        padding: 25px 0;
+    }
+
+    /* footer */
+
+    .footer_inner {
+        padding-top: 70px;
+        padding-bottom: 30px;
+    }
+
+    .footer_text_left {
+        margin-right: 70px;
+    }
+
+    .footer_social {
+        padding-top: 40px;
+    }
+
+    .Copyright_text {
+        padding-top: 25px;
+        padding-bottom: 40px;
+    }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1359px) {
+
+    /* slider start */
+
+    .image_section ul {
+        text-align: end;
+        bottom: 15px;
+        right: 25px;
+    }
+
+    .image_section ul li {
+        width: 40px;
+        height: 6px;
+        background: #FFFFFF;
+    }
+
+    .image_section ul li button {
+        display: none;
+    }
+
+    .image_section ul li.slick-active {
+        background: #FF5757;
+        opacity: unset;
+    }
+
+    /* slider End */
+
+    /* Featured left col*/
+
+    .bg_main {
+        position: relative;
+        padding: 0;
+    }
+
+    .Learn_to_Keep_outer {
+        position: absolute;
+        left: -32px;
+        bottom: 50px;
+        padding: 25px;
+    }
+
+    .Learn_to_Keep {
+        border: 3px solid #d9d9d9;
+        max-width: 540px;
+    }
+
+    .Learn_to_Keep_inner {
+        margin: 37px 44px;
+    }
+
+    .search_learn_outer {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 18px;
+    }
+
+    .search_learn {
+        width: 100%;
+        height: 56px;
+        background-color: #d9d9d9;
+        opacity: 0.4;
+        border: none;
+        outline: none;
+        padding: 0px 28px;
+    }
+
+    .search_icon_1 {
+        padding: 19px;
+    }
+
+    /* Featured right col*/
+
+    .dropdown_item {
+        padding: 12px;
+    }
+
+    .Featured_list {
+        margin: 0 15px;
+    }
+
+    .Featured_list li {
+        padding-top: 28px;
+    }
+
+    .Featured_list_text {
+        padding-left: 15px;
+    }
+
+    .Featured_list_text p {
+        font-size: 14px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+    }
+
+    .Featured_list_text-inner_2 {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 1;
+        -webkit-box-orient: vertical;
+    }
+
+    .Featured_list li {
+        padding-top: 15px;
+    }
+
+    /* button */
+
+    .Featured_btn_outer {
+        padding-top: 15px;
+    }
+
+    .Featured_heading {
+        padding: 5px 0;
+    }
+
+    /* buying guide */
+
+    .top_padding {
+        padding-top: 60px;
+    }
+
+    .buying_section {
+        padding-top: 50px;
+    }
+
+    /* Hardwood Floor */
+
+    .Hardwood_Floor {
+        padding: 46px 24px;
+    }
+
+    .Hardwood_Floor_col {
+        padding: 11px;
+    }
+
+    .buying_guide_text a span {
+        padding: 0px;
+        line-height: 1.4;
+    }
+
+    .Hardwood_Floor_col_text {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+    }
+
+    .Featured_In_heading h1 {
+        font-size: 36px;
+    }
+
+    .Featured_In_img_outer {
+        padding-top: 31px;
+    }
+
+    .Featured_In {
+        padding: 28px 24px;
+    }
+
+    .Featured_In_inner {
+        width: 150px;
+    }
+
+    /* Newest */
+
+    .Newest_btn_outer {
+        padding: 25px 0;
+    }
+
+    /* footer */
+
+    .footer_inner {
+        padding-top: 70px;
+        padding-bottom: 30px;
+    }
+
+    .footer_text_left {
+        margin-right: 35px;
+    }
+
+    .footer_text_right ul li .h7 {
+        font-size: 18px;
+    }
+
+    .footer_text_inner,
+    .Copyright_text {
+        font-size: 14px;
+    }
+
+    .footer_social {
+        padding-top: 40px;
+    }
+
+    .Copyright_text {
+        padding-top: 25px;
+        padding-bottom: 40px;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+
+
+    /* Featured left col*/
+
+    .bg_main {
+        position: relative;
+        padding: 0;
+    }
+
+    .Learn_to_Keep_outer {
+        position: absolute;
+        left: -32px;
+        bottom: 25px;
+        padding: 25px;
+    }
+
+    .Learn_to_Keep {
+        border: 3px solid #d9d9d9;
+        max-width: 540px;
+    }
+
+    .Learn_to_Keep_inner_text {
+        font-size: 25px;
+    }
+
+    .Learn_to_Keep_inner {
+        margin: 37px 44px;
+    }
+
+    .search_learn_outer {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 18px;
+    }
+
+    .search_learn {
+        width: 100%;
+        height: 56px;
+        background-color: #d9d9d9;
+        opacity: 0.4;
+        border: none;
+        outline: none;
+        padding: 0px 28px;
+    }
+
+    .search_icon_1 {
+        padding: 19px;
+    }
+
+    .main_heading {
+        padding: 23px 28px;
+    }
+
+    .dropdown_item {
+        padding: 9px;
+    }
+
+    .search_btn {
+        max-width: 200px;
+    }
+
+    .search_btn_outer {
+        padding: 0;
+    }
+
+    .h8 {
+        font-size: 16px;
+    }
+
+    .dropdown {
+        display: flex;
+        align-items: center;
+    }
+
+    .Featured_list {
+        margin: 0;
+    }
+
+    .Featured_list li {
+        padding: 10px;
+    }
+
+    .Featured_list_text {
+        padding-left: 15px;
+    }
+
+    .Featured_list_text p {
+        font-size: 14px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+    }
+
+    .Featured_list_text-inner_2 {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 1;
+        -webkit-box-orient: vertical;
+    }
+
+    .Featured_list_img {
+        padding: 0;
+    }
+
+    .Featured_list_img img {
+        width: 100px;
+    }
+
+    /* button */
+
+    .Featured_btn_outer {
+        padding-top: 15px;
+    }
+
+    .Featured_heading {
+        padding: 5px 0;
+    }
+
+    /* buying guide */
+
+    .top_padding {
+        padding-top: 60px;
+    }
+
+    .buying_section {
+        padding-top: 50px;
+    }
+
+    .buying_heading_text {
+        font-size: 38px;
+        padding-bottom: 38px
+    }
+
+    .buying_guide_text a span {
+        padding: 0px;
+        line-height: 1.4;
+        font-size: 18px;
+    }
+
+    .view_btn_outer {
+        padding-bottom: 60px;
+    }
+
+    /* Hardwood Floor */
+
+    .Hardwood_Floor_top h1 {
+        font-size: 38px;
+    }
+
+    .Hardwood_Floor {
+        padding: 46px 24px;
+    }
+
+    .Hardwood_Floor_col {
+        padding: 11px;
+    }
+
+    .Hardwood_Floor_col_text {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+    }
+
+    .Hardwood_Floor_col .buying_guide_text span {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+    }
+
+    .Featured_In_heading h1 {
+        font-size: 28px;
+    }
+
+    .Featured_In_img_outer {
+        padding-top: 31px;
+    }
+
+    .Featured_In {
+        padding: 19px 24px;
+    }
+
+    .Featured_In_inner {
+        width: 118px;
+    }
+
+    .Featured_In_inner img {
+        max-width: 115px;
+    }
+
+    .Recent_Articles_inner {
+        font-size: 30px;
+    }
+
+    /* Newest */
+
+    .Newest_btn_outer {
+        padding: 25px 0;
+    }
+
+    /* Latest */
+
+    .Latest {
+        padding: 38px 0;
+    }
+
+    .Latest_heading_text {
+        font-size: 38px;
+    }
+
+    /* footer */
+
+    .footer_inner {
+        padding-top: 50px;
+        padding-bottom: 20px;
+    }
+
+    .footer_text_left {
+        margin-right: 0px;
+        max-width: 390px;
+    }
+
+    .footer_text_right {
+        font-size: 18px;
+        padding-left: 50px;
+    }
+
+    .footer_text_right ul li {
+        max-width: 160px;
+    }
+
+    .footer_text_right ul li .h7 {
+        font-size: 16px;
+    }
+
+    .footer_text_inner,
+    .Copyright_text {
+        font-size: 14px;
+    }
+
+    .footer_social {
+        padding-top: 30px;
+    }
+
+    .Copyright_text {
+        padding-top: 15px;
+        padding-bottom: 30px;
+    }
+}
+
+@media (min-width: 992px) {
+    .mobile_header_inner {
+        display: none;
+    }
+
+}
+
+@media (max-width: 991px) {
+
+    /* toggel start */
+
+    #wrapper {
+        position: absolute;
+        transform: translate(-100%);
+        visibility: hidden;
+        z-index: 3;
+        left: 0;
+        width: calc(100vw - 4rem);
+        padding: 0;
+        border: 0.1rem solid rgba(var(--color-foreground), .2);
+        border-left: 0;
+        background-color: #fff;
+        overflow-x: hidden;
+        transition: all 0.5s;
+    }
+
+    #wrapper.toggled {
+        transform: translate(0);
+        visibility: visible;
+        transition: all 0.5s;
+        display: block;
+        width: 100%;
+    }
+
+    .dropdown_item {
+        display: block;
+        margin: 15px 0;
+    }
+
+    /* toggel end */
+
+    /* header */
+
+    .main_heading {
+        padding: 0;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .search_btn_outer {
+        display: none;
+    }
+
+    .mobile_header_outer {
+        padding: 0;
+    }
+
+    .mobile_header_inner {
+        height: 60px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 22px;
+    }
+
+    .social {
+        padding: 15px;
+    }
+
+    .dropdown {
+        display: none;
+    }
+
+    .search_btn_outer {
+        display: none;
+    }
+
+    .header_logo {
+        padding: 30px 0;
+    }
+
+    /* Learn to Keep */
+
+    .Learn_to_Keep {
+        border: 1.5px solid #d9d9d9;
+        height: 115px;
+        max-width: 100%;
+        padding: 13px 21px;
+    }
+
+    .Learn_to_Keep_inner {
+        margin: 0px;
+    }
+
+    .Learn_to_Keep_inner_text {
+        font-size: 18px;
+    }
+
+    .Learn_to_Keep_outer {
+        position: absolute;
+        left: 15px;
+        right: 15px;
+        bottom: -102px;
+        padding: 15px;
+        border-left: 2px solid #bb6bd9;
+    }
+
+    .search_learn {
+        height: 36px;
+        padding-left: 13px;
+    }
+
+    .search_learn_outer {
+        padding-top: 8px;
+    }
+
+    .search_icon_1 {
+        padding: 9px;
+    }
+
+    ::placeholder {
+        color: #777777;
+        font-size: 12px;
+        font-weight: 500;
+        opacity: 1;
+    }
+
+    :-ms-input-placeholder {
+        color: #777777;
+        font-size: 12px;
+        font-weight: 500;
+    }
+
+    ::-ms-input-placeholder {
+        color: #777777;
+        font-size: 12px;
+        font-weight: 500;
+    }
+
+    /* Featured */
+
+    .Featured {
+        max-width: 100%;
+    }
+
+    .Featured_outer {
+        padding: 0px;
+        margin-top: 162px;
+    }
+
+    .Featured_heading {
+        font-size: 20px;
+        padding: 10px 0;
+    }
+
+    .Featured_list {
+        margin: 0;
+    }
+
+    .Featured_list_img {
+        padding: 0;
+    }
+
+    .Featured_list li {
+        padding: 10px 30px;
+    }
+
+    .Featured_list_img img {
+        width: 109px;
+    }
+
+    .Featured_list_text {
+        text-align: start;
+        max-width: 100%;
+        padding-left: 21px;
+        line-height: 1.4;
+    }
+
+    .h9 {
+        font-size: 12px;
+    }
+
+    .Featured_list_text p {
+        font-size: 14px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        line-height: 1.2;
+    }
+
+    /* button */
+
+    .Featured_btn_outer {
+        padding: 15px 0;
+    }
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+
+    /* buying guide */
+
+    .Learn_to_Keep_outer {
+        left: 70px;
+        right: 70px;
+        bottom: -65px;
+        padding: 25px;
+        border-left: 3px solid #bb6bd9;
+    }
+
+    .buying_section,
+    .top_padding {
+        padding: 0px;
+    }
+
+    .buying_heading_text,
+    .view_btn_outer {
+        padding: 45px 0;
+    }
+
+    .buying_guide>div:nth-child(1),
+    .buying_guide>div:nth-child(2) {
+        width: 50%;
+    }
+
+    .buying_guide>div:nth-child(3) {
+        display: none;
+    }
+
+    /* Hardwood Floor */
+
+    .Hardwood_Floor_outer>div:nth-child(1) {
+        width: 100%;
+        padding: 12px !important;
+    }
+
+    .Hardwood_Floor_outer>div:nth-child(2),
+    .Hardwood_Floor_bottom>div:nth-child(1) {
+        display: none;
+    }
+
+    .Hardwood_Floor_bottom>div:nth-child(2),
+    .Hardwood_Floor_bottom>div:nth-child(3) {
+        width: 50%;
+    }
+
+    /* recent Recent_Articles */
+
+    .buying_heading_text {
+        font-size: 38px;
+        padding-bottom: 30px
+    }
+
+    .Recent_Articles_col_left_outer>div:nth-child(2) {
+        display: none;
+    }
+
+    .Recent_Articles_col_left_outer>div:nth-child(1) {
+        width: 100%;
+        padding: 12px !important;
+    }
+
+    .Recent_Articles_btn {
+        padding: 20px 0;
+    }
+
+    .Featured_heading {
+        padding: 15px 0;
+        font-size: 26px;
+    }
+
+    /* Newest */
+
+    .Newest_Latest_inner {
+        padding: 12px !important;
+    }
+
+    .Latest {
+        padding: 40px 12px;
+    }
+
+    .Latest_outer {
+        padding: 0;
+    }
+
+    /* footer */
+
+    .footer_inner {
+        padding-top: 50px;
+        padding-bottom: 20px;
+    }
+
+    .footer_text_left {
+        margin-right: 0px;
+        max-width: 390px;
+    }
+
+    .footer_text_right {
+        font-size: 18px;
+        padding-left: 50px;
+    }
+
+    .footer_text_right ul li {
+        max-width: 160px;
+    }
+
+    .footer_text_right ul li .h7 {
+        font-size: 16px;
+    }
+
+    .footer_text_inner,
+    .Copyright_text {
+        font-size: 14px;
+    }
+
+    .footer_social {
+        padding-top: 30px;
+    }
+
+    .Copyright_text {
+        padding-top: 15px;
+        padding-bottom: 30px;
+    }
+}
+
+@media (max-width: 767px) {
+
+    /* slider */
+
+    .image_section button {
+        display: none !important;
+    }
+
+    .image_section .slick-dots {
+        bottom: -170px;
+    }
+
+    .image_section .slick-dots li {
+        width: 12px;
+        height: 12px;
+        border-radius: 12px;
+    }
+
+    /* Featured_btn_outer */
+
+    .Featured_btn_outer {
+        padding: 25px 0;
+    }
+
+    /* buying guide */
+
+    .buying_guide_col_1 {
+        padding: 0 15px;
+    }
+
+    .buying_section,
+    .top_padding {
+        padding: 0px;
+    }
+
+
+    .view_btn_outer {
+        padding: 30px 0;
+    }
+
+    .buying_guide_text a span {
+        padding: 0;
+    }
+
+    .buying_guide>div:nth-child(3),
+    .buying_guide>div:nth-child(2) {
+        display: none;
+    }
+
+    /* Hardwood Floor */
+
+    .Hardwood_Floor_top {
+        font-size: 30px;
+        line-height: 1.35;
+    }
+
+    .Hardwood_Floor_top,
+    h1 {
+        padding: 0 7px;
+        font-size: 30px;
+        line-height: 1.35;
+    }
+
+    .Hardwood_Floor {
+        padding: 46px 0px;
+    }
+
+    .Hardwood_Floor_bottom {
+        padding-top: 32px;
+
+    }
+
+    .row {
+        margin: 0;
+    }
+
+    .row>* {
+        padding: 0;
+    }
+
+    .Hardwood_Floor_col {
+        background-color: unset;
+        color: #fff;
+        padding: 10px 15px 28px 15px;
+    }
+
+    .Hardwood_Floor_col .buying_guide_text a span {
+        color: #fff;
+        padding: 0;
+    }
+
+    .Hardwood_Floor_top_inner {
+        display: none;
+    }
+
+    .Hardwood_Floor_btn {
+        display: block;
+        text-align: center;
+    }
+
+    .Hardwood_Floor_outer>div:nth-child(1) {
+        width: 100%;
+        padding: 30px 0px 0px 0px !important;
+    }
+
+    .Hardwood_Floor_outer>div:nth-child(2),
+    .Hardwood_Floor_bottom>div:nth-child(2),
+    .Hardwood_Floor_bottom>div:nth-child(3) {
+        display: none;
+    }
+
+
+    /* recent Recent_Articles */
+
+    .buying_heading_text {
+        font-size: 30px;
+        padding-top: 30px;
+        padding-bottom: 10px;
+        line-height: 1.55;
+    }
+
+    .Recent_Articles_col_left_outer>div:nth-child(2) {
+        display: none;
+    }
+
+    .Recent_Articles_col_left_outer>div:nth-child(1) {
+        width: 100%;
+        padding: 12px !important;
+    }
+
+    .d_grid {
+        margin-top: 15px;
+        padding-left: 12px;
+    }
+
+    .d_grid h6,
+    .d_grid span {
+        font-size: 14px;
+    }
+
+    .d_grid a h3 {
+        font-size: 16px;
+    }
+
+    .Recent_Articles_inner {
+        padding-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .Recent_Articles_col_left>div:nth-child(2).buying_guide_text::before {
+        height: 60px;
+        width: 6px;
+        background: #f36b21;
+    }
+
+    .Recent_Articles_btn {
+        padding: 30px 0;
+    }
+
+    .Featured_heading {
+        padding: 15px 0;
+        font-size: 26px;
+    }
+
+    /* Newest */
+
+    .Newest_Latest_inner {
+        padding: 12px !important;
+    }
+
+    .Newest_btn_outer {
+        padding: 25px 0;
+    }
+
+    .Latest_heading_text {
+        padding-top: 10px;
+        line-height: 1.55;
+    }
+
+    .Latest {
+        padding: 20px 12px;
+    }
+
+    .Latest>div:nth-child(2) {
+        display: none;
+    }
+
+    .buying_guide_col_2 .buying_guide_text p,
+    .buying_guide_col_2 .buying_guide_text span {
+        font-size: 14px;
+    }
+
+    .buying_guide_col_2 .buying_guide_text a span {
+        font-size: 16px;
+    }
+
+    /* footer */
+
+    .footer_inner {
+        padding: 60px 30px 50px;
+    }
+
+    .footer_text_left {
+        margin: auto;
+        max-width: 390px;
+        text-align: center;
+    }
+
+    .footer_text_right {
+        font-size: 14px;
+        padding-left: 0px;
+        text-align: center;
+    }
+
+    .footer_text_right ul li {
+        max-width: 164px;
+        text-align: left;
+    }
+
+    .footer_text_right ul li .h7 {
+        font-size: 14px;
+        padding-left: 20px;
+    }
+
+    .footer_text_inner,
+    .Copyright_text {
+        font-size: 14px;
+    }
+
+    .footer_social {
+        padding-top: 30px;
+    }
+
+    .Copyright_text {
+        padding-top: 15px;
+        padding-bottom: 30px;
+    }
+}
+
+@media (max-width: 575px) {}
+
+@media (max-width: 481px) {
+    .container {
+        padding: 0;
+    }
+
+    /* header */
+
+    .row {
+        margin: 0;
+    }
+
+    .h8 {
+        font-size: 16px;
+    }
+
+    .header_logo_icon {
+        max-width: 80%;
+    }
+
+    .dropdown_item {
+        padding: 10px 32px;
+    }
+
+    .search_btn_outer {
+        display: none;
+    }
+
+    .search_btn {
+        max-width: 100%;
+    }
+
+    .footer_text_right ul li .h7 {
+        font-size: 14px;
+        padding-left: 0px;
+    }
+
+    .footer_text_right ul li {
+        max-width: 130px;
+    }
+
+}
